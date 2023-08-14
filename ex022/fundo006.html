@@ -3,19 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>teste de imagem</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+           /* background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+            /* Shorthand - background Nesta ordem;
+            color > image > position > repeat > [size] > attachment 
+            parece que o size não funciona por isso coloquei no-repeat*/
+            background: black url('imagens/wallpaper002.jpg') center center  no-repeat fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -26,7 +32,13 @@
 <body>
     <main>
         <h1>Teste de Imagem</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cum obcaecati ipsam eveniet hic accusantium saepe magni illum dolore ullam! Veritatis temporibus assumenda tenetur dolor vero dolorum cumque, atque laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id facere quis, maxime quisquam animi unde quas voluptatibus aut eius eveniet accusamus saepe inventore, eaque aspernatur, autem facilis ipsum. Atque, minus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae esse corporis nam, eveniet dicta consequuntur totam minus hic tempora ad? Impedit doloribus, expedita eaque maxime nostrum libero ex vitae facere!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cum obcaecati ipsam eveniet hic accusantium saepe magni illum dolore ullam! Veritatis temporibus assumenda tenetur dolor vero dolorum cumque, atque laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id facere quis, maxime quisquam animi unde quas voluptatibus aut eius eveniet accusamus saepe inventore, eaque aspernatur, autem facilis ipsum. Atque, minus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae esse corporis nam, eveniet dicta consequuntur totam minus hic tempora ad? Impedit doloribus, expedita eaque maxime nostrum libero ex vitae facere! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus corrupti, maxime eos a dignissimos aspernatur, illo, ratione totam earum nesciunt voluptatem corporis sint harum reprehenderit?
+             Esse corporis perspiciatis ducimus quae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis iste ratione debitis suscipit laboriosam illum quidem minus blanditiis cupiditate at. Placeat iusto vero quidem deserunt nemo, omnis perferendis dolore quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolorum, tenetur similique, iusto illum placeat tempore neque blanditiis nam illo alias atque, quis eius commodi consequuntur molestias soluta! Nesciunt, voluptatum!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut magnam voluptas ad aspernatur quae consequatur dolore exercitationem, accusamus, ipsam quis rerum fugiat quisquam explicabo? Deserunt, nesciunt! Repudiandae modi soluta tempora?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, ea libero architecto saepe hic adipisci sequi culpa repellat quod nesciunt perspiciatis quisquam dolor iure voluptatem provident eum qui eius est?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente quibusdam error illo. Consectetur ipsa iure totam, cum commodi nisi iste, dolor esse quidem natus aperiam molestiae eaque accusamus itaque eos?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci modi est eum consequuntur velit reiciendis. Voluptates inventore eveniet unde explicabo fuga modi ad, quo accusamus? Sint, ipsum! Ipsa, et. Quae!
+        </p>
     </main>
 </body>
 </html>
